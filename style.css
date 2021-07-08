@@ -1,0 +1,24 @@
+body{
+    background: #D1913C;  
+background: -webkit-linear-gradient(to right, #FFD194, #D1913C);  
+background: linear-gradient(to right, #FFD194, #D1913C); 
+font-family: 'Otomanopee One', sans-serif;
+}
+canvas{
+    box-shadow: 10px 10px 10px red;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: groove;
+    border-color: red;
+    margin-top: 30px;
+}
+.heading{
+    padding: 10px;
+    margin: 5px;
+}
+.heading:hover{
+    background-color:blue ;
+}
+.start:hover{
+    background-color: deeppink;
+}
