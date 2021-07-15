@@ -1,3 +1,4 @@
+objject=[];
 status="";
 
 function setup(){
@@ -20,4 +21,17 @@ function modelLoaded(){
 
 function draw(){
     image(video,0,0,280,280);
+    if(status!=""){
+        
+
+        }
+    }
+
+
+function gotResult(error,result){
+if(error){
+    console.log(error);
+}
+console.log(results);
+objject=results;
 }
